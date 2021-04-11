@@ -5,6 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .p {
   font-weight: 700;
 }
@@ -29,13 +33,13 @@ body {
 
 #navbar {
   width: 280px;
-  height: 100vh;
   background-color: #3b7eeb;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  overflow-y: hidden;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 #navbar-title {
@@ -86,23 +90,27 @@ hr {
 #content {
   display: flex;
   flex-direction: column;
+  justify-content: right;
   width: 80%;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 #main-name-section {
   display: flex;
   background-color: #fafafa;
+  padding: 0px 0px 0px 40px;
 }
 
 .main-name {
-  padding: 40px 40px 40px 40px;
+  margin: 40px 40px 40px 0px;
 }
 
 #main-profile {
-  width: 600px;
   height: 300px;
-  padding-top: 40px;
-  padding-bottom: 5px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  border-radius: 8px;
 }
 
 .name {
@@ -220,8 +228,58 @@ input:checked + .slider:before {
   border-radius: 25px;
 }
 
+#work-description,
+#featured-blogs,
+#featured-project,
+#testimonial {
+  padding: 0px 0px 0px 40px;
+}
+
 #view-container {
   display: flex;
   flex-direction: row;
   margin: 20px 0px 0px 0px;
+}
+
+#skill-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-element {
+  margin: 5px;
+}
+
+.skill-element h {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #292929;
+  margin: 0px 0px 5px 0px;
+}
+
+.skill-element img {
+  width: 25px;
+  margin: 0px 0px 5px 0px;
+}
+
+.skill-element svg {
+  width: 25px;
+  margin: 0px 0px 5px 0px;
+}
+
+#css-icon {
+  fill: #53a7dc;
+}
+
+#html-icon {
+  fill: #de6e3c;
+}
+
+#js-icon {
+  fill: #f1de4f;
+}
+
+#python-icon {
+  fill: #456e9c;
 }
