@@ -135,8 +135,8 @@ hr {
 }
 
 .sub-name {
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 28px;
+  line-height: 32px;
   font-weight: 700;
   color: #292929;
 }
@@ -241,7 +241,7 @@ input:checked + .slider:before {
   margin: 20px 0px 0px 0px;
 }
 
-#skill-list {
+.skill-list {
   display: flex;
   flex-direction: row;
 }
@@ -282,4 +282,82 @@ input:checked + .slider:before {
 
 #python-icon {
   fill: #456e9c;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-icon {
+  width: 200px;
+  margin: 20px 10px 20px 20px;
+}
+
+.project-list-element {
+  display: flex;
+  flex-direction: row;
+  background-color: #fafafa;
+  margin: 5px 10px 5px 20px;
+  border-radius: 15px;
+  width: 550px;
+  height: 230px;
+}
+
+.project-list-element-text h {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 10px 0px 10px 10px;
+  color: #292929;
+}
+
+.project-list-element-text a {
+  color: #292929;
+}
+
+.project-list-element-text p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-icon {
+  width: 350px;
+  margin: 0px 0px 10px 0px;
+}
+
+.blog-list-element {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  margin: 5px 10px 5px 20px;
+  border-radius: 15px;
+  width: 350px;
+  height: 500px;
+}
+
+.blog-list-element-text h {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 10px 0px 10px 10px;
+  color: #292929;
+}
+
+.blog-list-element-text a {
+  color: #292929;
+}
+
+.blog-list-element-text p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 5px 10px 5px 10px;
 }
