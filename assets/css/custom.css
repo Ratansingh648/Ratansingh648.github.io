@@ -231,7 +231,7 @@ input:checked + .slider:before {
 #work-description,
 #featured-blogs,
 #featured-project,
-#testimonial {
+#references {
   padding: 0px 0px 0px 40px;
 }
 
@@ -330,6 +330,7 @@ input:checked + .slider:before {
 
 .blog-icon {
   width: 350px;
+  height: 160px;
   margin: 0px 0px 10px 0px;
 }
 
@@ -340,7 +341,7 @@ input:checked + .slider:before {
   margin: 5px 10px 5px 20px;
   border-radius: 15px;
   width: 350px;
-  height: 500px;
+  height: 400px;
 }
 
 .blog-list-element-text h {
