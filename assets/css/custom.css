@@ -231,7 +231,8 @@ input:checked + .slider:before {
 #work-description,
 #featured-blogs,
 #featured-project,
-#references {
+#references,
+#education {
   padding: 0px 0px 0px 40px;
 }
 
@@ -240,6 +241,8 @@ input:checked + .slider:before {
   flex-direction: row;
   margin: 20px 0px 0px 0px;
 }
+
+/*  Skill Contents Begins here*/
 
 .skill-list {
   display: flex;
@@ -284,6 +287,10 @@ input:checked + .slider:before {
   fill: #456e9c;
 }
 
+/*  Skill Contents ends here*/
+
+/*  Project Contents Begins here*/
+
 .project-list {
   display: flex;
   flex-direction: row;
@@ -323,6 +330,10 @@ input:checked + .slider:before {
   margin: 5px;
 }
 
+/*  Project Contents ends here*/
+
+/*  Blog Contents begins here */
+
 .blog-list {
   display: flex;
   flex-direction: row;
@@ -361,4 +372,49 @@ input:checked + .slider:before {
   line-height: 24px;
   font-weight: 400;
   margin: 5px 10px 5px 10px;
+}
+
+/*  Blog Contents ends here */
+
+/*  Academics contents starts here */
+
+.college-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.college-list-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 0px 20px 0px;
+}
+
+.college-list-element-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 0px 0px;
+}
+
+.college-list-element-text h {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.college-list-element-text h1 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.college-list-element-text p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 200;
+}
+
+.hide-underline {
+  text-decoration: none;
 }
