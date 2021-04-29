@@ -232,7 +232,8 @@ input:checked + .slider:before {
 #featured-blogs,
 #featured-project,
 #references,
-#education {
+#education,
+#academic-research {
   padding: 0px 0px 0px 40px;
 }
 
@@ -397,24 +398,35 @@ input:checked + .slider:before {
 }
 
 .college-list-element-text h {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 28px;
   font-weight: 500;
 }
 
-.college-list-element-text h1 {
-  font-size: 14px;
-  line-height: 20px;
+.hide-underline {
+  text-decoration: none;
+}
+
+.course-name {
   font-weight: 200;
+  font-size: 16px;
   font-style: italic;
 }
 
-.college-list-element-text p {
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 200;
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px 0px 0px;
 }
 
-.hide-underline {
-  text-decoration: none;
+.tags li {
+  display: inline;
+  font-weight: 500;
+  color: #777777;
+  border: 1px solid #777777;
+  border-radius: 15px;
+  font-size: small;
+  padding: 0px 5px;
+  flex-wrap: wrap;
+  margin: 3px 3px;
 }
