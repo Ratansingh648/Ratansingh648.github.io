@@ -14209,3 +14209,59 @@ body {
 .config-panel .close .fa {
   color: #fff;
 }
+
+.professional-timeline {
+  padding-left: 2rem;
+}
+
+.professional-timeline:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background: #c8cfd8;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+
+.professional-timeline-item:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -30px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #6f8098;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.professional-timeline-header {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.professional-company-name {
+  font-size: 1.875rem;
+  font-weight: 500;
+}
+
+.professional-position-time {
+  font-size: 0.875rem;
+  color: #aab4c3;
+}
+
+.professional-position-title {
+  font-size: 1.125rem;
+  color: #434e5e;
+}
+
+.professional-timeline-item-desc-heading {
+  font-size: 1rem;
+}
+
+.professional-section-content {
+  color: #58677c;
+}
