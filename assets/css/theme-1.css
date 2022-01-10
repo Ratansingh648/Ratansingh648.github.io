@@ -5204,7 +5204,6 @@ fieldset:disabled .btn {
   margin-right: -0.5rem;
   margin-left: -0.5rem;
 }
-
 .card-img-overlay {
   position: absolute;
   top: 0;
@@ -13070,6 +13069,14 @@ textarea.form-control {
   max-height: 200px;
   overflow: hidden;
   vertical-align: middle;
+}
+
+.blog-img-holder {
+  max-height: 200px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .project-card .link-mask {
